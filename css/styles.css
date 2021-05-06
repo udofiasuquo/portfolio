@@ -303,8 +303,8 @@
     width: 3em;
     height: 1px;
     margin: 0.5em auto 1em;
-    color: var(--clr-light);
-    opacity: 0.25;
+    background-color: var(--clr-light);
+    opacity: 0.25;  
 }
 
 .services {
@@ -380,7 +380,7 @@
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .portfolio--item {
