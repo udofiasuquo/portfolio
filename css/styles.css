@@ -223,7 +223,6 @@
      height: 3px;
      border-radius: 1em;
      transition: transform 250ms ease-in-out;
-
 }
 
 .hamburger::before, 
@@ -380,7 +379,7 @@
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .portfolio--item {
